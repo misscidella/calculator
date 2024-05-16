@@ -1,0 +1,40 @@
+body{
+	width: 350px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 3fr 1fr ;
+	grid-gap: 15px;
+	height: 60px;
+	padding-bottom: 15px;
+
+	}
+.results{
+	border-radius: 2px;
+	background-color: hotpink;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 100px;
+	text-justify: center;
+		
+}
+button{
+	border-radius: 30px;
+	color: hotpink;
+	box-shadow: 5px 8px 5px 5px purple;
+	border-color: pink;
+	font-family: "Times New Roman";
+	font-size: 30px;
+
+}
+
+.buttons-container{
+	
+	display: grid;
+	height: 250px;
+	grid-gap: 15px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
