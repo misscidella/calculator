@@ -1,4 +1,13 @@
-body{
+
+body, html{
+	width: 100vw;
+	height: 100vh;
+	background:linear-gradient(to bottom right, black 20%, pink 80%);
+	display:grid;
+	justify-content: center;
+	align-items: center;
+}
+.calculator{
 	width: 350px;
 }
 .container{
@@ -19,6 +28,14 @@ body{
 	text-justify: center;
 		
 }
+@media(max-width:260){
+	.results{
+		font-size: 10px;
+	}
+
+}
+
+
 button{
 	border-radius: 30px;
 	color: hotpink;

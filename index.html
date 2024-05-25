@@ -7,31 +7,32 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="container">
-    <div class="results"></div>
-    <button id="clear-button" onclick="clearAll()">C</button>   
+    <div class="calculator">
+        <div class="container">
+            <div class="results"></div>
+            <button id="clear-button" onclick="clearAll()">C</button>   
+            </div>
+            <div class="buttons-container" >
+                <button onclick="appendNumber('1')">1</button>
+                <button onclick="appendNumber('2')">2</button>
+                <button onclick="appendNumber('3')">3</button>
+                <button onclick="appendOperator('+')">+</button>
+                <button onclick="appendNumber('4')">4</button>
+                <button onclick="appendNumber('5')">5</button>
+                <button onclick="appendNumber('6')">6</button>
+                <button onclick="appendOperator('-')">-</button>
+                <button onclick="appendNumber('7')">7</button>
+                <button onclick="appendNumber('8')">8</button>
+                <button onclick="appendNumber('9')">9</button>
+                <button onclick="appendOperator('*')">*</button>
+                <button onclick="appendNumber('0')">0</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="toggleSign()">+/-</button>
+                <button onclick="appendOperator('/')">/</button>
+            </div>
+        </div>
     </div>
-    <div class="buttons-container" >
-        <button onclick="appendNumber('1')">1</button>
-        <button onclick="appendNumber('2')">2</button>
-        <button onclick="appendNumber('3')">3</button>
-        <button onclick="appendOperator('+')">+</button>
-        <button onclick="appendNumber('4')">4</button>
-        <button onclick="appendNumber('5')">5</button>
-        <button onclick="appendNumber('6')">6</button>
-        <button onclick="appendOperator('-')">-</button>
-        <button onclick="appendNumber('7')">7</button>
-        <button onclick="appendNumber('8')">8</button>
-        <button onclick="appendNumber('9')">9</button>
-        <button onclick="appendOperator('*')">*</button>
-        <button onclick="appendNumber('0')">0</button>
-        <button onclick="calculate()">=</button>
-        <button onclick="toggleSign()">+/-</button>
-        <button onclick="appendOperator('/')">/</button>
-    </div>
-     
-        
-    </div>
+    
     
     <script type="text/javascript" src="script.js"></script>
 </body>
